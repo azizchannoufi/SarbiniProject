@@ -119,7 +119,7 @@ const Order = () => {
           <Image
             style={[styles.profileIcon, styles.iconLayout]}
             contentFit="cover"
-            source={require("../assets/profile.png")}
+            source={require("../../assets/profile.png")}
           />
         </View>
         <View style={styles.statusMenu}>
@@ -149,7 +149,7 @@ const Order = () => {
               <Image
                 style={[styles.trashIcon, styles.iconLayout]}
                 contentFit="cover"
-                source={require("../assets/trash.png")}
+                source={require("../../assets/trash.png")}
               />
               </TouchableOpacity>
               <Text style={styles.text}>{el.price}DT</Text>

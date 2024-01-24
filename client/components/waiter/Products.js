@@ -194,7 +194,7 @@ console.log(order,"order");
       <Image
         style={styles.sideBarManager}
         contentFit="cover"
-        source={require("../assets/side-bar-manager.png")}
+        source={require("../../assets/side-bar-manager.png")}
       />
         <TouchableOpacity  
         onPress={()=>{navigation.navigate("Product");}}
@@ -210,14 +210,14 @@ console.log(order,"order");
         <Image
           style={styles.lucidedoorOpenIcon}
           contentFit="cover"
-          source={require("../assets/lucidedooropen.png")}
+          source={require("../../assets/lucidedooropen.png")}
         />
         <Text style={styles.logOut}>Log Out</Text>
       </View>
       <Image
         style={styles.captureDCran20240113081Icon}
         contentFit="cover"
-        source={require("../assets/capture-d-cran-20240113-081410removebgpreview-3.png")}
+        source={require("../../assets/capture-d-cran-20240113-081410removebgpreview-3.png")}
       />
         
       
@@ -233,7 +233,7 @@ console.log(order,"order");
          <Image
               style={[styles.groupItem, styles.itemLayout]}
              
-              source={require("../assets/frame-1260.png")}
+              source={require("../../assets/frame-1260.png")}
             />
             </View>
             </TouchableOpacity>
@@ -248,7 +248,7 @@ console.log(order,"order");
             <Image
               style={styles.iconButton}
               contentFit="cover"
-              source={require("../assets/iconbutton.png")}
+              source={require("../../assets/iconbutton.png")}
             />
             <View style={styles.wrapper}>
               <Text style={styles.text}>3</Text>
@@ -259,7 +259,7 @@ console.log(order,"order");
       {/* <Image
         style={styles.productsChild}
         contentFit="cover"
-        source={require("../assets/ellipse-454.png")}
+        source={require("../../assets/ellipse-454.png")}
       /> */}
       <View style={styles.container} >
         <ScrollView horizontal>
@@ -288,7 +288,7 @@ console.log(order,"order");
         <Image
           style={styles.filterIcon}
           contentFit="cover"
-          source={require("../assets/filter.png")}
+          source={require("../../assets/filter.png")}
         />
       </View>
       </TouchableOpacity>

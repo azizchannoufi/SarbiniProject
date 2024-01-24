@@ -87,19 +87,19 @@ const hundelupdate = async (id, status1) => {
       <Image
         style={[styles.sideBarManager, styles.sideLayout]}
         contentFit="cover"
-        source={require("../assets/side-bar-manager.png")}
+        source={require("../../assets/side-bar-manager.png")}
       />
       
       <Image
         style={[styles.sideBarManager1, styles.sideLayout]}
         contentFit="cover"
-        source={require("../assets/side-bar-manager1.png")}
+        source={require("../../assets/side-bar-manager1.png")}
       />
       <View style={styles.buttonLogOut}>
         <Image
           style={[styles.lucidedoorOpenIcon, styles.iconLayout]}
           contentFit="cover"
-          source={require("../assets/lucidedooropen.png")}
+          source={require("../../assets/lucidedooropen.png")}
         />
         <Text style={[styles.logOut, styles.logOutTypo]}>Log Out</Text>
       </View>
@@ -107,7 +107,7 @@ const hundelupdate = async (id, status1) => {
       <Image
         style={styles.captureDCran20240113081Icon}
         contentFit="cover"
-        source={require("../assets/capture-d-cran-20240113-081410removebgpreview-3.png")}
+        source={require("../../assets/capture-d-cran-20240113-081410removebgpreview-3.png")}
       />
       
       {/*////////////////////////////////////////////////////////////////////////*/}
